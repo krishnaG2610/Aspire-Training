@@ -1,28 +1,28 @@
-let array = ["ram","rajesh","kumar"];
+let students = ["ram","rajesh","kumar"];
 
 //length
-let len = array.length;
+let len = students.length;
 console.log(len)
 
 //push && pop
-array.push("ragul");
-console.log(array);
-array.pop();
-console.log(array);
+students.push("ragul");
+console.log(students);
+students.pop();
+console.log(students);
 
 //delete
-array.push("ragul");
-delete array[3];
-console.log(array);
+students.push("ragul");
+delete students[3];
+console.log(students);
 
 //shift && unshift
-array.shift();
-console.log(array);
-array.unshift("ram");
-console.log(array);
+students.shift();
+console.log(students);
+students.unshift("ram");
+console.log(students);
 
 //filter,forEach
-array.filter(n=> n!==undefined).forEach( n => console.log(n));
+students.filter(n=> n!==undefined).forEach( n => console.log(n));
 
 //map,filter,reduce
 let numArray = [1,2,3,4,5,6];
@@ -30,7 +30,7 @@ let result = numArray.filter(n=>n%2===0).map(n => n+2).reduce((a,b) => a+b );
 console.log("Total is : " + result);
 
 //indexof
-console.log(array.indexOf("ram"));
+console.log(students.indexOf("ram"));
 
 //splice
 let finalArray = numArray.splice(2,2);
