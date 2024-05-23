@@ -1,0 +1,16 @@
+.bottom img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+ }
+ .bottom{
+  margin-top: -20px;
+  padding: 0px;
+ }
+ .bottom h1{
+  padding-top: 200px;
+  z-index: 1;
+  color: white;
+  font-size: 130px;
+ }

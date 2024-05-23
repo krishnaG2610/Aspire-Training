@@ -1,0 +1,68 @@
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  
+  .hero {
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  
+  .cbutton {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .car-models {
+    text-align: center;
+  }
+  
+  .car-models h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .models-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .model-card {
+    width: 30%;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .model-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
