@@ -1,0 +1,49 @@
+<div class="background-container">
+  <div class="topRight">
+    <a routerLink="/book">Book</a>
+    <a routerLink="/login">Logout</a>
+  </div>
+  <div class="final">
+    <h2>Book Your Events</h2>
+    <ng-container *ngIf="!isFormSubmitted; else submittedMessage">
+      <form id="booking" (submit)="handleSubmit($event)">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            [(ngModel)]="formData.name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            [(ngModel)]="formData.phone"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            [(ngModel)]="formData.location"
+            required
+          />
+        </div>
+        <input type="submit" id="Sbtn" value="Book" />
+      </form>
+    </ng-container>
+    <ng-template #submittedMessage>
+      <div class="message" id="message">
+        Our Staff will contact You
+      </div>
+    </ng-template>
+  </div>
+</div>

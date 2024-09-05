@@ -1,0 +1,43 @@
+<div class="dashboard">
+  <div class="sidebar">
+    <div class="profile">
+      <img src="/assets/admin.jpg" alt="Profile" />
+      <p>user</p>
+    </div>
+    <ul>
+      <li><a routerLink="/dashboard">Dashboard</a></li>
+      <li><a routerLink="/CreateEvent">Create Events</a></li>
+      <li><a routerLink="/ShowEvent">Show Events</a></li>
+      <li><a routerLink="/book">Book tickets</a></li>
+      <li><a routerLink="/login">Logout</a></li>
+    </ul>
+  </div>
+  <div class="Table">
+    <h1 id="yr">Your Events</h1>
+    <div class="EventList">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Phone Number</th>
+            <th>Event Type</th>
+            <th>Event Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let event of events">
+            <td>{{ event.eventDate }}</td>
+            <td>{{ event.eventLocation }}</td>
+            <td>{{ event.phoneNumber }}</td>
+            <td>{{ event.eventType }}</td>
+            <td>{{ event.eventDescription }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Elegant Edge Events. All rights reserved.</p>
+  </footer>
+</div>

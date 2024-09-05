@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  z-index: -1;
+}
+.details{
+  background-color: black;
+  height: 2300px;
+  margin: 0px;
+}
+.top {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 52px;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  width: 800px;
+}
+
+.text {
+  padding-top: 200px;
+  color: azure;
+  width: 1000px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+  height: 500px;
+  width: 700px;
+  margin: 20px;
+}
+
+.pic1 img, .pic2 img, .pic3 img, .pic4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pic1 img, .pic3 img {
+  margin-left: 910px;
+  padding-top: 80px;
+}
+
+.pic2 img, .pic4 img {
+  margin-top: -150px;
+}
+
+.text2, .text3, .text4 {
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  position: absolute;
+  top: 2980px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 20px 40px;
+  background-color: black;
+}
+
+.bttn {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: rgba(124, 25, 25, 0);
+  font-size: 18px;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  text-decoration: none;
+}
+
+.bttn:hover {
+  color: rgb(186, 73, 8);
+  border-color: rgb(241, 132, 8);
+}
+
+.topRight {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.topRight a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  padding: 10px 15px;
+}
+
+.topRight a:hover {
+  color: rgba(120, 120, 120, 0.8);
+}
+
+#meettext {
+  font-size: 100px;
+  color: azure;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#text1 {
+  font-size: 50px;
+  color: azure;
+  text-align: center;
+  margin-top: -450px;
+  margin-left: -1060px;
+}
+
+#ceremony {
+  font-size: 50px;
+  color: azure;
+  text-align: center;
+  margin-top: -7px;
+  margin-left: -1060px;
+  z-index: 9999;
+}
+
+#text2 {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -500px;
+  margin-left: 770px;
+  padding-bottom: 190px;
+}
+
+#text3 {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -270px;
+  margin-right: 900px;
+  padding-bottom: 350px;
+}
+
+#text4 {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -500px;
+  margin-right: -750px;
+}

@@ -1,0 +1,64 @@
+
+.signup {
+  background: rgba(255, 255, 255, 0.153);
+  background-image: url('/assets/c1.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.glass {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.153);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  padding-left: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.235);
+  padding-right: 50px;
+}
+
+.glass h1 {
+  text-align: center;
+  color: steelblue;
+}
+
+.glass input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.glass button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 15px;
+  color: red;
+  text-align: center;
+}
+a {
+  color: hotpink;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  color: white;
+  text-align: center;
+}

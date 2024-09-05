@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+.background-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/assets/event.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+}
+
+.final {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #000000;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.337);
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #000000;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(157, 105, 0, 0.8);
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(0, 134, 18);
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.topRight {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 10;
+}
+
+.topRight a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topRight a:hover {
+  color: rgba(157, 105, 0, 0.8);
+}

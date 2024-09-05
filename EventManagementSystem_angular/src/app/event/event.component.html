@@ -1,0 +1,57 @@
+<div>
+  <div class="title"></div>
+  <div id="home" class="home">
+    <header>
+      <div class="TopLeft"></div>
+      <div class="navbar">
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/login">Login</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <img src="assets/kelly-sikkema-7Wybl_UQM2E-unsplash.jpg" class="background" alt="background">
+      <img src="assets/43.png" class="foreground" alt="foreground">
+      <h1 class="title">Elegant Edge Events<br>Welcome!</h1>
+    </header>
+    <section>
+      <h1>Welcome to "Elegant Edge Events"</h1>
+      <p>
+        We specialize in turning your dreams into reality. From intimate gatherings to grand celebrations, we are dedicated to creating unforgettable experiences that exceed your expectations. With our passion for creativity, attention to detail, and commitment to excellence, we will make your event one to remember.
+      </p>
+      <h2>Why Choose Us?</h2>
+      <p>
+        With years of experience in the industry, our team brings a wealth of knowledge and expertise to every event we undertake. We have successfully executed a wide range of events, from corporate conferences and weddings to festivals and fundraisers. We understand that every event is unique, which is why we take the time to listen to your needs and tailor our services accordingly. Whether you have a specific vision in mind or need help bringing your ideas to life, we will work closely with you to create a customized plan that reflects your style and preferences.
+      </p>
+    </section>
+  </div>
+  <div id="events" class="wrapper">
+    <h1>Events</h1>
+  </div>
+  <div class="two">
+    <p>
+      Event Planning: From concept development and budget management to vendor coordination and timeline creation, we handle every aspect of event planning with precision and expertise.<br>
+      Venue Selection: We work closely with a network of top-tier venues to find the perfect setting for your event, whether it is a scenic outdoor space or a unique unconventional venue.<br>
+      Décor and Design: Our talented team of designers will transform your venue into a breathtaking space that reflects your style and theme, from elegant floral arrangements to stunning lighting effects.<br>
+      Catering and Hospitality: We partner with renowned catering companies to provide exquisite culinary experiences that tantalize the taste buds and leave a lasting impression on your guests.<br>
+      Entertainment and Production: From live music and DJs to multimedia presentations and interactive experiences, we offer a wide range of entertainment options to keep your guests entertained and engaged throughout the event.
+    </p>
+  </div>
+  <div class="slideShow">
+    <h1 >EVENT MANAGED</h1>
+  <div class="slide">
+    <img [src]="slides[slideIndex]" [alt]="'slide ' + (slideIndex + 1)">
+  </div>
+  <div class="slide-controls">
+    <button (click)="previousSlide()">&#10094;</button>
+    <button (click)="nextSlide()">&#10095;</button>
+  </div>
+  <div id="contact" class="contact">
+    <h3 style="color: #f70776;">CONTACT</h3>
+    <p>Email: <span>&#64;</span>eventmnm<span>&#64;</span>gmail.com</p>
+    <p>Phone: 982345678</p>
+    <p>Address: no 123, st Street, Chennai, Tamil Nadu</p>
+  </div>
+</div>
+</div>
