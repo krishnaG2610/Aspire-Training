@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url('/assets/ticket.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.ticketCard, .bookingCard {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.ticketCard h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+}
+
+select,
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #000000;
+}
+
+.btttn {
+    padding: 10px;
+    background-color: rgba(255, 170, 0, 0.8);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btttn:hover {
+    background-color: rgb(79, 149, 4);
+}
+
+#upi {
+    width: 150px;
+}
+
+.topRight {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex; 
+    gap: 10px; 
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+.topRight a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.topRight a:hover {
+    color: rgba(157, 105, 0, 0.8); 
+}
+
+footer {
+    background-color: #1C1919;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
+    margin: 0;
+    padding: 10px 0;
+    position:fixed;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    border:0%;
+    background-color: #03030b;
+    font-family: "poppins";
+}
+.title{
+    text-align: center;
+    font-size: 110px;
+    color: aliceblue;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.TopLeft{
+    font:25px;
+    color:white;
+}
+.background,
+.foreground{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(8px);
+    z-index:2;
+}
+
+.background{
+    transform: translateZ(-10px)scale(2);
+}
+.foreground{
+    transform: translateZ(-5px)scale(1.5);
+
+}
+.home{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+section{
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color:#141a20;
+    color: antiquewhite;
+    height: fit-content;
+    text-align: justify;
+}
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.wrapper {
+    width: 100%;
+    height: 800px;
+    background: url('/assets/13.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.wrapper h1 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150px;
+    z-index: 2;
+}
+.two {
+	text-align: justify;
+	padding: 25px;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color:#050b22;
+    color: antiquewhite;
+    height: fit-content;
+}
+.slide {
+    align-items: center; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    position: relative; 
+}    
+.emySlides {
+    height: 600px !important;
+    width: 1000px !important;
+}
+
+
+.contact{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    }
+#headEvent{
+    color: aliceblue;
+     font-size: 75px;
+     margin-left: 550px;
+
+    }

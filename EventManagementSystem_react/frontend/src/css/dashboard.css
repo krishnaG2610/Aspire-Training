@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar .profile {
+    padding-left: 55px;
+    align-items: center;
+    border-bottom: 1px solid #1C1919;
+    padding-bottom: 15px;
+    z-index: 9999;
+}
+
+.profile p {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.sidebar .profile img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    color: white;
+    font-family: Poppins, sans-serif;
+    background-color: #31473a;
+    position: fixed;
+    transition: all 0.5s ease;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e9eac8;
+    color: whitesmoke;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 13px 20px;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #1C1919;
+}
+
+.side {
+    margin-left: 20%;
+    width: 80%;
+    padding: 20px;
+    background-color: #EDF4F2;
+    overflow: hidden;
+}
+
+.side header {
+    padding: 20px;
+    font-family: 'DejaVu Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #1C1919;
+    color: white;
+}
+
+.events {
+    text-align: center;
+    background-color: #EDF4F2;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.events h2 {
+    color: #000000;
+}
+
+.eventstable {
+    margin-top: 30px;
+    border-collapse: collapse; /* Ensure borders collapse into a single border */
+    width: 100%; /* Make sure the table uses the full width */
+}
+
+.eventstable th {
+    padding: 5px; /* Reduce padding for smaller row height */
+    font-size: 14px; /* Reduce font size */
+    border: 1px solid #000000;
+    line-height: 1.2; /* Adjust line height for tighter rows */
+}
+.eventstable td{
+height: fit-content;
+width: fit-content;
+padding: 0px;
+border: 1px solid #000000;
+}
+.eventstable tr {
+    height: 30px; /* Set a fixed height for rows */
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 45px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #1C1919;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-left: 20%;
+}

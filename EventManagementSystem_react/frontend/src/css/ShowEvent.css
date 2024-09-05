@@ -1,0 +1,119 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cehead {
+    margin-top: 0;
+    color: black;
+    font-size: 50px;
+    z-index: 3;
+    margin-left: 400px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #31473a;
+    position: fixed;
+    transition: all 0.5s ease;
+    padding: 20px;
+    float: left;
+    z-index: 2;
+}
+
+.sidebar .profile {
+    padding-left: 55px;
+    align-items: center;
+    border-bottom: 1px solid #1C1919;
+    padding-bottom: 15px;
+}
+
+.sidebar .profile p {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.sidebar .profile img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e9eac8;
+    color: whitesmoke;
+}
+
+.side {
+    height: 100%;
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF4F2;
+    z-index: -1;
+}
+
+
+
+table {
+    float: right;
+    border-collapse: collapse;
+    width: 80%;
+    height: 754px;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black; 
+    background-color: #e9eac8;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+#yr{
+    color: #1C1919;
+    background-color: #e9eac8; 
+    text-align: center;
+    padding-left: 250px;
+    width: 100%;
+}
+#cef{
+    z-index: 0;
+    margin-top: 0px;
+    padding-left: 0px;
+}

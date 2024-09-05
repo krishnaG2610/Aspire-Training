@@ -1,0 +1,14 @@
+.footer2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #171616;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 310px
+}
+
+.footer2 p {
+    margin: 0; 
+    font-size: 16px;
+}
