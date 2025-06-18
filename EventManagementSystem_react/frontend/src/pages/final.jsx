@@ -22,7 +22,7 @@ const Final = () => {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:5000/auth/final', { // Update the URL to your backend endpoint
+            const response = await fetch('https://aspire-training.onrender.com/auth/final', { // Update the URL to your backend endpoint
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
