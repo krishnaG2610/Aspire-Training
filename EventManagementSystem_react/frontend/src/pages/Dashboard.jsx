@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import '../css/Dashboard.css';
+import '../css/dashboard.css';
 
 function Dashboard() {
     useEffect(() => {
