@@ -26,7 +26,7 @@ const CreateEvent = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/auth/CreateEvent', { // Update the URL to match your backend
+      const response = await fetch('https://aspire-training.onrender.com/auth/CreateEvent', { // Update the URL to match your backend
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
